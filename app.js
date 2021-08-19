@@ -1,12 +1,11 @@
 ////
 const express = require('express'), app = express();
-////
-getHTTPPostData();
-////
-function getHTTPPostData() {
-  app.listen(9000, function()
-  {
-    console.log("Hello World!");
-  });
-}
+const port = 8000
 //
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+//
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})

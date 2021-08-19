@@ -1,6 +1,6 @@
 ---
 applications:
 - name: salesComSrv
-  memory: 128m
+  memory: 512m
   instances: 1
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git

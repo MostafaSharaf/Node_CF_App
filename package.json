@@ -1,5 +1,32 @@
 {
+  "name": "NodeHelloCF",
+  "version": "1.0.0",
+  "description": "An example of COmision Sales Service ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MostafaSharaf/cpapp_demo_cap.git"
+  },
+  "keywords": [
+    "12",
+    "factor"
+  ],
+  "author": "@Mosty",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MostafaSharaf/cpapp_demo_cap/issues"
+  },
+  "homepage": "https://github.com/MostafaSharaf/cpapp_demo_cap#readme",
+  "//": "II Dependencies - Explicitly declare and isolate dependencies",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4"
+  },
+  "engines": {
+    "node": ">=14",
+    "npm": ">=2"
   }
 }

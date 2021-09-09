@@ -1,7 +1,7 @@
 {
   "name": "NodeHelloCF",
   "version": "1.0.0",
-  "description": "An example of COmision Sales Service ",
+  "description": "NodeJs HelloWorld example app!",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MostafaSharaf/cpapp_demo_cap.git"
+    "url": "git+https://github.com/MostafaSharaf/Node_CF_App.git"
   },
   "keywords": [
     "12",
@@ -18,9 +18,9 @@
   "author": "@Mosty",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/MostafaSharaf/cpapp_demo_cap/issues"
+    "url": "https://github.com/MostafaSharaf/Node_CF_App/issues"
   },
-  "homepage": "https://github.com/MostafaSharaf/cpapp_demo_cap#readme",
+  "homepage": "https://github.com/MostafaSharaf/Node_CF_App#readme",
   "//": "II Dependencies - Explicitly declare and isolate dependencies",
   "dependencies": {
     "dotenv": "^10.0.0",
